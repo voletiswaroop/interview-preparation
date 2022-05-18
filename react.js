@@ -3,6 +3,8 @@ Virtual dom?
 -  Virtual DOM has the same properties that of the Real DOM, but it lacks the power to directly change the content of the screen.
 -  Every time the state of our application changes, the virtual DOM gets updated instead of the real DOM.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+              
 Why Virtual Dom is faster?
 - A virtual DOM, which is a tree-shaped representation of the UI, is created by adding elements to it.
 - Each element is a node on this tree. Every time one of these elements changes, a new virtual DOM tree is created.
@@ -10,6 +12,8 @@ Why Virtual Dom is faster?
 - Once this is done, the virtual DOM calculates the best possible method to make these changes to the real DOM.
 - This ensures that there are minimal operations on the real DOM. Hence, reducing the performance cost of updating the real DOM.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+              
 Real DOM vs Virtual DOM ?
 
 1. It updates slow.                        1. It updates faster.
@@ -19,3 +23,6 @@ Real DOM vs Virtual DOM ?
 3. Creates a new DOM if element updates.   3. Updates the JSX if element updates.
 
 4. DOM manipulation is very expensive.     4. DOM manipulation is very easy.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
