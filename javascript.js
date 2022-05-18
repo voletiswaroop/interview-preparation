@@ -33,11 +33,13 @@ JSON.parse(JSON.stringify(obj))
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 Function Currying ?
-Currying is when a function, rather than taking all arguments at once, takes the first one and returns a new function, which then takes the second one and returns a new function, and so on until all arguments are completed.
+Currying is when a function, rather than taking all arguments at once, takes the first one and returns a new function, which then takes the second 
+one and returns a new function, and so on until all arguments are completed.
 
 Uses of Function Currying:
 - It helps us to avoid passing the same variable again and again.
-- It separates our function into several smaller functions, each of which can handle a single duty. This ensures that our function is error-free and free of side effects.
+- It separates our function into several smaller functions, each of which can handle a single duty. This ensures that our function is error-free 
+and free of side effects.
 - It is used in functional programming to create a higher-order function.
 - It is extremely useful in event handling.
 ---------------------------------------------------------------------------------------------------------------------------------------------------
