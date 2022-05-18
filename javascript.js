@@ -10,4 +10,11 @@ Array Methods in Javascript?
 - reverse() :- We use this to reverse the elements in an array
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-              
+
+replaceAll in javascript?
+
+const str = "welcome to front end interview tips"
+str.replace(/t/g,'a') or str.replaceAll('t','a')
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+            
