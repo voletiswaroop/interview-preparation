@@ -30,3 +30,16 @@ Code spliting in reactjs?
   Code spliting can be achieve by using React.lazy() and then wrap it up in <suspense fallback="">.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
+Disadvantages of Css-in-Js ?
+I am a big fan of CSS-in-JS especially styled-components but in this article i want to discuss about disadvantages of using CSS-in-JS.
+
+- Difficulty to learn for the devs who are new to react syntax.
+- The class names themselves are dynamically generated, too, essentially breaking caching as things can change between builds/renders.
+- Css-in-js parses all the style definitions into plain vanilla CSS and put everything inside style tag in index.html file. This will increase html file 
+  size.
+- Adds lots of unnecessary code while parsing to vanilla css.
+- Browser will not start interpreting the styles until styled-components has parsed them and added them to the DOM, which slows down rendering.
+- Most of the UI libraries and frameworks won't support this approach.
+- We can't use other css utilities like SCSS, LESS and PostCSS.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
