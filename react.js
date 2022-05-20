@@ -36,7 +36,7 @@ I am a big fan of CSS-in-JS especially styled-components but in this article i w
   size.
 - Adds lots of unnecessary code while parsing to vanilla css.
 - Browser will not start interpreting the styles until styled-components has parsed them and added them to the DOM, which slows down rendering.
-- Most of the UI libraries and frameworks wont support this approach.
-- We cant use other css utilities like SCSS, LESS and PostCSS.
+- Most of the UI libraries and frameworks won't support this approach.
+- We can't use other css utilities like SCSS, LESS and PostCSS.
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
