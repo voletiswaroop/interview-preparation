@@ -1,0 +1,7 @@
+- Design facebook feed.
+- Google sheet.
+- Design how uber/ola tracking system works.
+- Design shipment tracking.
+- Design bookmyshow booking system.
+- Design cricket board.
+- Build a system where a component can have 4 sides and remain open if the condition is true, and then seamlessly integrate the components based on the available position (top, right, bottom, left). Default is the right position if all positions are open. Components should be prevented from interacting if the condition is false. 
