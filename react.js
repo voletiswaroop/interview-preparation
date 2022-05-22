@@ -38,5 +38,6 @@ I am a big fan of CSS-in-JS especially styled-components but in this article i w
 - Browser will not start interpreting the styles until styled-components has parsed them and added them to the DOM, which slows down rendering.
 - Most of the UI libraries and frameworks won't support this approach.
 - We can't use other css utilities like SCSS, LESS and PostCSS.
+- CSSLinting will be difficult
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
