@@ -11,22 +11,25 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### replaceAll in javascript?
+```
 const str = "welcome to front end interview tips" 
 str.replace(/t/g,'a') or str.replaceAll('t','a')
-
+```
 ---------------------------------------------------------------------------------------------------------------------------------------------------
             
 ### Skip elements in array using destructuring ?
+```
 const ary = ['test','test1','test2','test3','test4','test5','test6'];
 const [,,...remaining] = ary
 console.log(remaining)
-
+```
 ---------------------------------------------------------------------------------------------------------------------------------------------------
             
 ### is Set case senstive - Yes 
+```
 Ex: const obj = new Set("Free fire")
     console.log(...obj) // "F", "r", "e", " ", "f", "i"
-    
+``` 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Deep clone obj in JS
@@ -48,9 +51,10 @@ and free of side effects.
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Repeat a string in js?
+```
 const str = "hello"
 str.repeat(3) // hello hello hello
-
+```
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Web 1.0, Web 2.0 and Web 3.0?
@@ -72,12 +76,16 @@ customPromise.then(result => console.log(result)) // data
 ### What is reduce function?
 ---------------------------------------------------------------------------------------------------------------------------------------------------
             
-### What is reduce function?
----------------------------------------------------------------------------------------------------------------------------------------------------
-### What is reduce function?
----------------------------------------------------------------------------------------------------------------------------------------------------
-### Reduce vs ForEach cs Map?
+### What is forEach function?
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+### What is Map function?
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+### ForEach vs Map vs Filter?
+- The filter() method checks every element in an array to see if it meets a condition and returns a new array with the elements.
+- The map() method is used to execute the same code on every element in an array returns a new array with the updated elements.
+- The forEach() method is used to execute the same code on every element in an array and will not create array with the result
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ### ForEach vs for loop ?
 
@@ -94,6 +102,8 @@ customPromise.then(result => console.log(result)) // data
 
 For: help us to get only the value.
 For-in: help us to get both value and key
+
+```
 Ex: var twoSum = function(nums, target) {
     let final = []
       for (let k in nums) {
@@ -104,5 +114,5 @@ Ex: var twoSum = function(nums, target) {
       }
       return final;
 };
-
+```
 ---------------------------------------------------------------------------------------------------------------------------------------------------
