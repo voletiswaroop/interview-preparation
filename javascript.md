@@ -54,9 +54,9 @@ str.repeat(3) // hello hello hello
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Web 1.0, Web 2.0 and Web 3.0?
-Web 1.0 was all about reading, and getting information. 
-Web 2.0 was all about reading, writing, and creating. 
-Web 3.0 is all about reading, writing and owning.
+- Web 1.0 was all about reading, and getting information. 
+- Web 2.0 was all about reading, writing, and creating. 
+- Web 3.0 is all about reading, writing and owning.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
