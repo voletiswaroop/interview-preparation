@@ -63,3 +63,39 @@ Adding 'async' turns the return type into promise
 const customPromise = async () => return data
 customPromise.then(result => console.log(result)) // data
 ---------------------------------------------------------------------------------------------------------------------------------------------------
+
+What is reduce function?
+---------------------------------------------------------------------------------------------------------------------------------------------------
+            
+What is reduce function?
+---------------------------------------------------------------------------------------------------------------------------------------------------
+What is reduce function?
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Reduce vs ForEach cs Map?
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+ForEach vs for ?
+
+|For Loop	|forEach Loop|
+| ------------- | ------------- |
+| It is one of the original ways of iterating over an array.	|It is a newer way with lesser code to iterate over an array.|
+|It is faster in performance.	|It is slower than the traditional loop in performance.|
+|The break statement can be used to come out from the loop.	|The break statement cannot be used because of the callback function.|
+|The parameters are the iterator, counter, and incrementor.	|The parameters are the iterator, index of item, and array to iterate.|
+|It works with the await keyword.	|The await keyword cannot be used due to the callback function. It may lead to incorrect output.|
+---------------------------------------------------------------------------------------------------------------------------------------------------
+for vs for in vs for as ?
+
+For: help us to get only the value.
+For-in: help us to get both value and key
+Ex: var twoSum = function(nums, target) {
+    let final = []
+      for (let k in nums) {
+        let i = parseInt(k)
+        if (nums[i] + nums[i + 1] === target) {
+        final.push(i, i + 1)
+        }
+      }
+      return final;
+};
+---------------------------------------------------------------------------------------------------------------------------------------------------
